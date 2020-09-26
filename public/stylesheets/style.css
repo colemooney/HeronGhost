@@ -1,8 +1,47 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px  Helvetica;
+  background-image: url("https://cdn.heronpreston.com/custom_page_images/704/original_OFFICE_MAGAZINE_ISSUE_10.jpg?1559225905");
+  background-size: 900px 1000px; }
+
+h1, h3 {
+  font-weight: bold !important;
+  color: black !important; }
 
 a {
   color: #00B7FF; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50vw; }
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto; }
+
+.btn-primary {
+  color: white;
+  background-color: black !important;
+  border-color: black !important; }
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black !important;
+  opacity: 1;
+  /* Firefox */
+  font-weight: bold !important; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black !important; }
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black !important; }
 
 /*# sourceMappingURL=style.css.map */
