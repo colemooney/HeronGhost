@@ -62,3 +62,9 @@ a {
   color: #002cff; }
 
 /*# sourceMappingURL=style.css.map */
+
+.title{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
