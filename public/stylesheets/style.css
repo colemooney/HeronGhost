@@ -63,8 +63,16 @@ a {
 
 /*# sourceMappingURL=style.css.map */
 
-.title{
+.card-photo{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.articles{
   display: flex;
-  justify-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 10px;
 }
