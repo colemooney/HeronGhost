@@ -9,7 +9,7 @@ h1, h3 {
   color: black !important; }
 
 a {
-  color: #00B7FF; }
+  color: white; }
 
 .container {
   padding-right: 15px;
@@ -46,12 +46,19 @@ a {
 
 #nav ul {
   display: flex;
-  list-style-type: none; }
+  justify-content: space-evenly;
+  list-style-type: none;
+  background: #f26228;
+  width: 100vw;
+  margin-left: -49px;
+  padding-top: 15px; }
 
 #nav li {
   display: inline; }
 
 #nav a {
-  background-color: white; }
+  display: flex;
+  flex-direction: column-reverse;
+  color: #002cff; }
 
 /*# sourceMappingURL=style.css.map */
