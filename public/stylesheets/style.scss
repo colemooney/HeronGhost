@@ -44,3 +44,16 @@ a {
  ::-ms-input-placeholder { /* Microsoft Edge */
   color: black !important;
  }
+ #nav{
+   ul{
+    display: flex;
+    
+    list-style-type: none;
+  }
+  li{
+    display: inline;
+  }
+  a{
+    background-color: white;
+  }
+}
